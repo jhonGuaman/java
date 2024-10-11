@@ -5,6 +5,8 @@ public class Persona {
 	private int edad;
 	private double estatura;
 	
+
+	
 	public String getNombre() {
 		return nombre;
 	}
