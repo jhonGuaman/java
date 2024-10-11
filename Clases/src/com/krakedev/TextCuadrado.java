@@ -9,7 +9,7 @@ public class TextCuadrado {
 		double areaCuadrado;
 		double perimetroCuadrado;
 		
-		c.lado=6;
+		c.setLado(6);
 		areaCuadrado=c.calcularArea();
 		perimetroCuadrado=c.calcularPerimetro();
 		
