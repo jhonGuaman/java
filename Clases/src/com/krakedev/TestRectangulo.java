@@ -4,8 +4,8 @@ public class TestRectangulo {
 
 	public static void main(String[] args) {
 		
-		Rectangulo r1 = new Rectangulo();
-		Rectangulo r2 = new Rectangulo();
+		Rectangulo r1 = new Rectangulo(7,8);
+		Rectangulo r2 = new Rectangulo(8,6);
 		
 		int areaR1;
 		double perimetroR1;

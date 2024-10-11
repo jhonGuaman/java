@@ -8,9 +8,9 @@ public class TestProducto {
 		Producto productoB;
 		Producto productoC;
 		
-		productoA = new Producto();
-		productoB = new Producto();
-		productoC = new Producto();
+		productoA = new Producto("Lemonflu","sobre de 50gr",5.98f, 8);
+		productoB = new Producto("curita"," cinta transparente",1.50f, 10);
+		productoC = new Producto("desodorante","producto en barra de 100gr",3.50f, 7);
 		
 		productoA.setNombre("alcohol");
 		productoA.setDescripcion("botella de 100l");
